@@ -1,0 +1,68 @@
+button:focus {
+    outline-color: red;
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a {
+    transition: .5s all;
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: red !important;
+    letter-spacing: 1px;
+}
+
+.social-media-icons {
+    list-style: none;
+    padding: 2% 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media-icons>li>a {
+    text-decoration: none;
+    color: rgb(65, 64, 64);
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .2s all;
+}
+
+.social-media-icons>li>a:hover {
+    color: red;
+    letter-spacing: 2px;
+}
+
+.signInInput .MuiInputBase-input:focus {
+    color: red !important;
+    outline: red;
+}
+
+.carousel-status {
+    display: none;
+}
+
+.carousel-image>img {
+    height: 60vh;
+    width: auto !important
+}
+
+.carousel .slide {
+    background: #fff !important
+}
+
+.carousel.carousel-slider .control-arrow {
+    background: #000 !important;
+}
+
+.carousel .thumbs-wrapper {
+    display: none
+}
+
+
+/* changes the arrow */
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg{
+    height: 40px !important;
+}
